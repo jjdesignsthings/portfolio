@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/smooth.js"></script>
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>J.Portfolio</title>
+</head>
+<body>
+        <div class="loadingPg">
+            <img src="./img/loading.png" alt="">
+        </div>
+    <div class="wrap">
+        <div class="gnb">
+            <ul>
+                <li><a href="#">ABOUT<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
+                <li><a href="#">PROJECTS<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
+                <li><a href="#">CONTACT<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
+            </ul>
+            <img class="menuClose" src="./img/menuClose.png" alt="메뉴닫기">
+        </div>
+        <header>
+            <h1 class="logo"><a href="#"><img src="./img/HJY.png" alt="황지영"></a></h1>
+            <img class="menu" src="./img/menu.png" alt="메뉴버튼">
+        </header>
+        <main>
+            <div class="content1">
+                <div class="innerFrame">
+                    <p id="textUpGroup" class="ct1-intro">
+                        <span class="textUp">Hello,</span><br>
+                        <span class="textUp">I am Jiyoung,</span><br>
+                        <span class="textUp">a Junior Web Publisher,</span><br>
+                        <span class="textUp">based in Seoul.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="scrollBox">
+                    <div class="frame">
+                        <h3 class="traitName">TRUE</h3>
+                        <ul class="traitList">
+                            <li>
+                                <h3><span>T</span>HOROUGH</h3>
+                                <p>Build to web standards and test regularly for problems with speed or functionality</p>
+                            </li>
+                            <li>
+                                <h3><span>R</span>ESPONSIVE</h3>
+                                <p>Offer a seamless experience on any device</p>
+                            </li>
+                            <li>
+                                <h3><span>U</span>SER-CENTERED</h3>
+                                <p>Focus on the users and their needs in every phase of the design process</p>
+                            </li>
+                            <li>
+                                <h3><span>E</span>FFECTIVE</h3>
+                                <p>Establish a distinctive identity for businesses and achieve desired objectives</p>
+                            </li>
+                        </ul> 
+                        <div class="circleHome">
+                            <svg viewBox="0 0 10 10">
+                                <circle class="circle" cx="5" cy="5" r="0"/>
+                            </svg>
+                            <h2 class="circleTitle">PROJECTS</h2>
+                        </div>
+                        <div class="projectList">
+                            <ul>
+                                <li><a href="#">01 RE-DESIGN</a></li>
+                                <li><a href="#">02 WEB DESIGN</a></li>
+                                <li><a href="#">03 BANNER DESIGN</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content3">
+                <div class="ct-intro">
+                    <span class="bnjDecor"><img src="./img/bnjDecor.png" alt="컨텐츠3 장식"></span>
+                    <div class="ct3-text">
+                        <h3>BEN & <br> JERRY'S</h3>
+                        <p>Renowned American ice cream company,<br>known for its inventive flavors and commitment to social responsibility</p>
+                    </div>
+                    <div class="ct3-img">
+                        <img class="bnjBg"src="./img/bnjBg.png" alt="컨텐츠3 배경">
+                        <img class="bnjMockup" src="./img/bnjMockup.png" alt="컨텐츠3 목업">
+                    </div>
+                </div>
+                <div class="ct3-design">
+                    <h2>DESIGN</h2>
+                    <p>Features a delightful and vibrant design <br> 
+                        with a charming blend of cute aesthetics to sweeten the user experience.</p>
+                    <figure>
+                        <figcaption>Font-Family</figcaption>
+                        <img src="./img/typography.png" alt="typography">
+                    </figure>
+                    <figure>
+                        <figcaption>Color Scheme</figcaption>
+                        <img src="./img/colorScheme.png" alt="Color Scheme">
+                                            </figure>
+                </div>
+                <div class="ct3-strategy">
+                    <h2>STRATEGY</h2>
+                    <p>Creating a website to entice potential customers to buy their product.</p>
+                    <div class="ct3-straCons">
+                        <div class="ct3-straCons1">
+                            <h3>Responsive Web Design</h3>
+                            <p>Ensures optimal viewing and interaction experiences <br>
+                                across all devices, icluding PCs, tablets and mobiles.
+                                <br><br>
+                                Adapting seamlessly to various screen sizes, <br>
+                                resposive design enhances user satisfaction and accessibility.
+                            </p>
+                            <span class="link2web"><a href="http://jjdesignsthings.dothome.co.kr/"  target='_blank'>Visit Redesigned Website</a></span>
+                        </div>
+                        <img class="con3_mockup" src="./img/con3_mockup.png" alt="mockup image for Redesign project">
+                        <div class="ct3-straCons2">
+                            <img class="con3_subpage" src="./img/con3_test.png" alt="테스트용">
+                            <div class="ct3-textBox-2">
+                                <h3>Intuitituve Interface</h3>
+                                <p>Powered by JavaScript, the sub page is not only brings the list of menu,<br>
+                                    but also ensures a dynamic and interactive journey.</p>
+                                <span class="link2web"><a href="http://jjdesignsthings.dothome.co.kr/sub.html?cate=all"  target='_blank'>Visit Redesigned Subpage</a></span>
+                                    
+                            </div>
+                        </div>
+                        <div class="ct3-straCons3">
+                            <div class="ct3-textBox-3">
+                                <h3>12-Column Grid System</h3>
+                                <p>Contributes to an organized, user-friendly,<br>
+                                    and aesthetically pleasing web design across the digital landscape.</p>
+                            </div>
+                            <img class="con3_12lines" src="./img/con3_12lines.jpg" alt="detail image for Redesign project">
+                        </div>
+                        <div class="ct3-straCons4">
+                            <img src="./vid/bnjVid.gif" alt="captured video of Redesign project">
+                            <div class="ct3-textBox-4">
+                                <h3>The Final Result</h3>
+                                <p>Lively color scheme, playful illustrations, <br> and user-friendly layout create a dynamic online destination <br> where every click is a step into a sugary wonderland!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <div class="content4">
+            <div class="ct4-textBox">
+                <h2>GRAPHIC DESIGN</h2>
+                <p>Proficient in Adobe Illustrator and Adobe Photoshop, <br>I can demonstrate a commitment to delivering high-quality desgin solutions.</p>
+            </div>
+            <div>
+                <dl class="tabMenu">
+                    <dt class="on">Popup</dt>
+                    <dd class="popup">
+                        <section>
+                            <img src="./img/design/Blackfriday.jpg" alt="blackfriday popup">
+                        </section>
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Black Friday</h3>
+                                <p>A space-themed design with clean lines and bold font featuring a sleek and modern aesthetic.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#ffc122</li>
+                                    <li>#231f20</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>한국기계연구원</p>
+                            </div>
+                        </section>
+                                                
+                        <section>
+                            <img src="./img/design/musicfestival.jpg" alt="musicfestival popup">
+                        </section>
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Music Festival</h3>
+                                <p>Elevating sophistication, the design showcases a vibrand gradient color scheme for classical enthusiats.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#ed0e5f</li>
+                                    <li>#dca107</li>
+                                    <li>#0076ba</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Unna</p>
+                            </div>
+                        </section>
+                                                
+                        <section class="popupDecor">
+                        </section>
+                        
+                                                
+                        <section>
+                            <img src="./img/design/newyear.jpg" alt="newyear popup">
+                        </section>
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>2024 New Year</h3>
+                                <p>Celebarating the Year of the Dragon in 2024, the design adds a comtemporary flair to welcom the new yaer with style.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#f3dedb</li>
+                                    <li>#1f2c56</li>
+                                    <li>#ca4546</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>휴먼아미체</p>
+                            </div>
+                        </section>
+                                                
+                        <section >
+                            <img src="./img/calendar.jpg" alt="">
+                        </section>
+                                                
+                        <section>
+                            <img src="./img/design/flower.jpg" alt="flower popup">
+                        </section>
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Store Opening</h3>
+                                <p>Awash in a warm yellow hue with a subtle nod to Ar Deco, intricating modernness unfold like petals.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#a19446</li>
+                                    <li>#f1ef9f</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>한국기계연구원</p>
+                            </div>
+                        </section>
+                        
+                        
+                        <section>
+                            <img src="./img/design/christmas.jpg" alt="christmas popup">
+                        </section>
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Christmas</h3>
+                                <p>Adorned in festive hues and delightful elements, it captures the joy of the holidays.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#042d29</li>
+                                    <li>#751102</li>
+                                    <li>#929079</li>
+                                    <li>#d4c9b5</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Kanit</p>
+                            </div>
+                        </section>
+
+
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Tomato Festival</h3>
+                                <p>A lively tomato fesival popup, with striking typography that adds a zest to the design.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#115b40</li>
+                                    <li>#c7100a</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Abingdon</p>
+                            </div>
+                        </section>
+                        <section>
+                            <img src="./img/design/Latomatina.jpg" alt="tomato festival popup">
+                        </section>
+
+                        
+
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Art Exhibition</h3>
+                                <p>Melding modern flair with classical elegance, it beckons with bold purple color and refined elements.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#4c1791</li>
+                                    <li>#4c4c4c</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Classy Vogue</p>
+                            </div>
+                        </section>
+                        <section>
+                            <img src="./img/design/art.jpg" alt="newyear popup">
+                        </section>
+
+
+                        <section>
+                            <img src="./img/design/environment.jpg" alt="newyear popup">
+                        </section>
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Plogging event</h3>
+                                <p>Vibrant neon colors, blending modernity with a retro touch, set the stage for the eco-conscious gathering.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#86e486</li>
+                                    <li>#e78fcc</li>
+                                    <li>#231f20</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Dela Gothic One</p>
+                            </div>
+                        </section>
+                        <section class="popupDecor">
+                            <!-- <img src="./img/design/popup_mockup.jpg" alt="popup mockup"> -->
+                        </section>
+                    </dd>
+
+
+                    <dt>Banner</dt>
+                    <dd class="banner">
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Black Friday</h3>
+                                <p>A fusion of modern aesthetics and pop art vibrancy, splashed in a captivating color palette.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#5a55aa</li>
+                                    <li>#ff91c1</li>
+                                    <li>#d8e337</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Righteous</p>
+                            </div>
+                        </section>
+                        <section>
+                            <img src="./img/design/Blackfriday_banner.jpg" alt="">
+                        </section>
+
+                        <section >
+                        </section>
+                        <section>
+                            <img src="./img/design/board-mockup.jpg" alt="">
+                        </section>
+                        <section class="bannerDecor">
+                        </section>
+                        
+                        
+
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Christmas</h3>
+                                <p>A seamless blend of timelss aesthetics and festivea allure evokes the spirit of traditional Christmas charm.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#fffaf2</li>
+                                    <li>#e72934</li>
+                                    <li>#e79252</li>
+                                    <li>#3e3d3d</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Russo One</p>
+                            </div>
+                        </section>
+                        <section>
+                            <img src="./img/design/Christmas_banner.png" alt="">
+                        </section>
+
+
+                        <section>
+                            <img src="./img/design/tickets-mockup.jpg" alt="banner mockup">
+
+                        </section>
+                        <section class="bannerDecor">
+                        </section>
+
+                        <section class="designBox">
+                            <div class="designTitle">
+                                <h3>Design Fair Ticket</h3>
+                                <p>Ticket-like design exudes contemporary elegance, making its modernity unmistakable at first glance.</p>
+                            </div>
+                            <div class="designColorScheme">
+                                <h6>Color Scheme</h6>
+                                <ul class="colorSchemeList">
+                                    <li>#e2c295</li>
+                                    <li>#e9644b</li>
+                                    <li>#b3e1f7</li>
+                                </ul>
+                            </div>
+                            <div class="designFont">
+                                <h6>Font-Family</h6>
+                                <p>Heavitas</p>
+                            </div>
+                        </section>
+                        <section>
+                            <img src="./img/design/Interior_banner.jpg" alt="Interior_banner">
+                        </section>
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+        <!-- <div class="content5">
+            webdesign
+        </div> -->
+        </main>
+        <footer>
+            <div class="typing-container">
+                <p>I am only</p>
+                <span id="sentence" class="sentence"> </span>
+                <span id="feature-text"></span>
+                <span class="input-cursor">ㅤ</span>
+                <p>away...</p>
+            </div>
+            <div class="footerText">
+                <p>I will be there to save your web site!</p>
+              
+            </div>
+            <address>
+                <p><a href="mailto:jjdesignsthings@gmail.com">jjdesignsthings@gmail.com</a></p>
+            </address>
+            <span class="click2mail">click!</span>
+
+        </footer>
+    </div>
+</body>
+</html>
