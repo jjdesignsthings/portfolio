@@ -27,9 +27,9 @@
     <div class="wrap">
         <div class="gnb">
             <ul>
-                <li><a href="#">ABOUT<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
-                <li><a href="#">PROJECTS<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
-                <li><a href="#">CONTACT<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
+                <li class="toAbout"><a href="#about">ABOUT<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
+                <li class="toProjects"><a href="#projects">PROJECTS<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
+                <li class="toContact"><a href="#contact">CONTACT<span><img src="./img/menuArrow.png" alt="메뉴바로가기"></span></a></li>
             </ul>
             <img class="menuClose" src="./img/menuClose.png" alt="메뉴닫기">
         </div>
@@ -48,7 +48,7 @@
                     </p>
                 </div>
             </div>
-            <div class="content2">
+            <div class="content2" id="about">
                 <div class="scrollBox">
                     <div class="frame">
                         <h3 class="traitName">TRUE</h3>
@@ -79,14 +79,14 @@
                         <div class="projectList">
                             <ul>
                                 <li><a href="#">01 RE-DESIGN</a></li>
-                                <li><a href="#">02 WEB DESIGN</a></li>
-                                <li><a href="#">03 BANNER DESIGN</a></li>
+                                <!-- <li><a href="#">02 WEB DESIGN</a></li> -->
+                                <li><a href="#">02 GRAPHIC DESIGN</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content3">
+            <div class="content3" id="projects">
                 <div class="ct-intro">
                     <span class="bnjDecor"><img src="./img/bnjDecor.png" alt="컨텐츠3 장식"></span>
                     <div class="ct3-text">
@@ -109,7 +109,7 @@
                     <figure>
                         <figcaption>Color Scheme</figcaption>
                         <img src="./img/colorScheme.png" alt="Color Scheme">
-                                            </figure>
+                    </figure>
                 </div>
                 <div class="ct3-strategy">
                     <h2>STRATEGY</h2>
@@ -449,7 +449,7 @@
             webdesign
         </div> -->
         </main>
-        <footer>
+        <footer id="contact">
             <div class="typing-container">
                 <p>I am only</p>
                 <span id="sentence" class="sentence"> </span>
@@ -465,7 +465,6 @@
                 <p><a href="mailto:jjdesignsthings@gmail.com">jjdesignsthings@gmail.com</a></p>
             </address>
             <span class="click2mail">click!</span>
-
         </footer>
     </div>
 </body>

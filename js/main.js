@@ -43,6 +43,15 @@ $(document).ready(function(){
     })
     $(".menuClose").click(function(){
         $(".gnb").removeClass("on")
+    })
+    $(".toAbout").click(function(){
+        $(".gnb").removeClass("on")
+    })   
+    $(".toProjects").click(function(){
+        $(".gnb").removeClass("on")
+    })   
+    $(".toContact").click(function(){
+        $(".gnb").removeClass("on")
     })   
 
 
