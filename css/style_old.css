@@ -370,20 +370,10 @@ svg.on{
     justify-content: center;
     align-items: center;
 }
-
 .ct3-design>h2{
     font-family: "pfd-mi";
     font-size: 80px;
     margin: 15px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(30px);
-    transition: all 1s ease 0s;
-}
-.ct3-design>h2.on{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0px);
 }
 
 .ct3-design>p{
@@ -392,15 +382,6 @@ svg.on{
     margin-bottom: 70px;
     margin-top: 20px;
     text-align: center;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(30px);
-    transition: all 1s ease 0s;
-}
-.ct3-design>p.on{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0px);
 }
 
 .ct3-design figure{
@@ -408,15 +389,6 @@ svg.on{
     font-family: 'notoLightItalic';
     font-weight: bold;
     font-size: 24px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(30px);
-    transition: all 1s ease 0s;
-}
-.ct3-design figure.on{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0px);    
 }
 
 .ct3-design figure>*{
@@ -428,16 +400,16 @@ svg.on{
     font-family: "pfd-mi";
     font-size: 80px;
     margin: 15px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(30px);
-    transition: all 1s ease 0s;
+
 }
-.ct3-strategy>h2.on{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0px);  
+
+.ct3-strategy>p{
+    font-family: 'notoLightItalic';
+    font-size: 25px;
+    margin-bottom: 70px;
 }
+
+
 .ct3-strategy{
     background: url("../img/con3_bg.png") no-repeat 50% 300px;
     display: flex;
@@ -446,20 +418,6 @@ svg.on{
     align-items: center;
 }
 
-.ct3-strategy>p{
-    font-family: 'notoLightItalic';
-    font-size: 25px;
-    margin-bottom: 70px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(30px);
-    transition: all 1s ease 0s;
-}
-.ct3-strategy>p.on{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0px); 
-}
 
 .ct3-straCons{
     width: 1500px;
@@ -467,6 +425,13 @@ svg.on{
     position: relative;
 }
 
+
+.ct3-straCons1{
+    width: 50%;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
 
 .ct3-straCons h3{
     font-family: "pfd-mi";
@@ -486,20 +451,6 @@ svg.on{
     right: -90px;
 }
 
-
-.ct3-straCons1{
-    width: 50%;
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 50px;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 2s ease 0s;
-}
-.ct3-straCons1.on{
-    opacity: 1;
-    pointer-events: auto;
-}
 
 .link2web > a {
     font-family: "pfd-mi";
@@ -536,38 +487,28 @@ svg.on{
     z-index: -1;
 }
 
+
 .ct3-straCons2{
     position: relative;
     height: 500px;
-}
 
+}
 .ct3-textBox-2{
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-200px, 200px);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 1s ease 0s;
 }
-.ct3-textBox-2.on{
-    opacity: 1;
-    pointer-events: auto;
-}
-.con3_subpage{
+
+
+.con3_subpage {
     width: 570px;
     position: absolute;
     top: 185px;
     left: 55px;
     z-index: 10;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 1s ease 0s;
 }
-.con3_subpage.on{
-    opacity: 1;
-    pointer-events: auto;
-}
+
 .ct3-straCons3{
     background-color: #333434;
     height: 900px;
@@ -580,25 +521,11 @@ svg.on{
 .con3_12lines{
     width: 750px;
     border-radius: 100px;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 1s ease 0s;
-}
-.con3_12lines.on{
-    opacity: 1;
-    pointer-events: auto;
 }
 
 .ct3-textBox-3{
     color: white;
-    transform: translateY(180px);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 2s ease 0s;
-}
-.ct3-textBox-3.on{
-    opacity: 1;
-    pointer-events: auto;
+    transform: translateY(220px);
 }
 .ct3-straCons4{
     background: url("../img/MockupVidBg.png") no-repeat 50% 50% / cover;

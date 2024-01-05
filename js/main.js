@@ -145,6 +145,21 @@ $(window).scroll(function(){
     
 })
 
+// ct-3
+let devHeight = $(window).height()
+let scTop = 0
+$(window).scroll(function(){
+    scTop = $(window).scrollTop()
+    $(".ct3-design>h2,.ct3-design>p,.ct3-design figure,.ct3-strategy>h2,.ct3-strategy>p,.ct3-straCons1,.ct3-textBox-2,.ct3-textBox-3,.con3_subpage,.con3_12lines").each(function(){
+        if(scTop + (devHeight*0.6) >=$(this).offset().top){
+            $(this).addClass("on")
+        }
+        else{
+            $(this).removeClass("on")
+        }
+    })
+})
+
 
 // tabMenu
     $(".tabMenu>dt").click(function(){
