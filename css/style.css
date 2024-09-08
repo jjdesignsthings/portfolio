@@ -66,6 +66,7 @@
 .loadingPg.on{
     height:0vh;
     /* display: flex; */
+    background-color: #344ead;
 }
 .loadingPg>img{
     animation: load 7s linear 0s infinite;
